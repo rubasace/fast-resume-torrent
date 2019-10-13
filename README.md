@@ -3,7 +3,7 @@
 TODO: add badges
 
 ## Description
-Fast Resume Torrent offers a docker container with the famous `rtorrent_fast_resume.pl` script already installed. Such script adds fast resume data to torrent files, so they can 
+Fast Resume Torrent offers a docker container with the famous [rtorrent_fast_resume.pl](https://github.com/rakshasa/rtorrent/wiki/Common-Tasks-in-rTorrent#adding-fast-resume-data-to-torrent-files) script already installed. Such script adds fast resume data to torrent files, so they can 
 be added to rTorrent without the need for an initial check. This container provides a watchdog that will process any `.torrent` file dropped in the `/input` directory, providing 
 its fast-resume version on the `/output` one.
 
