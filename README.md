@@ -1,6 +1,8 @@
 # Fast Resume Torrent
 
-TODO: add badges
+[![docker-data](https://images.microbadger.com/badges/image/rubasace/fast-resume-torrent.svg)](https://microbadger.com/images/rubasace/fast-resume-torrent "Get your own image badge on microbadger.com")
+[![docker-version](https://images.microbadger.com/badges/version/rubasace/fast-resume-torrent.svg)](https://microbadger.com/images/rubasace/fast-resume-torrent "Get your own version badge on microbadger.com")
+
 
 ## Description
 Fast Resume Torrent offers a docker container with the famous [rtorrent_fast_resume.pl](https://github.com/rakshasa/rtorrent/wiki/Common-Tasks-in-rTorrent#adding-fast-resume-data-to-torrent-files) script already installed. Such script adds fast resume data to torrent files, so they can 
