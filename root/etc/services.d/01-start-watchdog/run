@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv sh
+
+LOG_FILE=/logs/fast-resume.log
+
+echo "Entering watchdog"
+
+echo "Executing script with user: ${PUID} and group: ${PGID}"
+
+/app/watch.sh >> "${LOG_FILE}"
+
+echo "Exiting watchdog (This should not happen)"
+
