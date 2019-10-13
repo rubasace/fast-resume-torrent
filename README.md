@@ -26,10 +26,8 @@ docker run -d --name fast-resume \
 | Volume | Description | 
 | ---- | ----------- | 
 | /input | Directory where original `.torrent` files will be dropped to be processed. | 
-| /output | Directory where the script will allocate the fast-resume `.torrent` files once processed. (They will have the same name as the original one, prefixed with 
-`__fast-resume__`). | 
-| /data | This directory is required by the `rtorrent_fast_resume.pl` script to generate the fast-resume data. It should point to the root directory where the downloaded files are 
-stored.| 
+| /output | Directory where the script will allocate the fast-resume `.torrent` files once processed. (They will have the same name as the original one, prefixed with `__fast-resume__`). | 
+| /data | This directory is required by the `rtorrent_fast_resume.pl` script to generate the fast-resume data. It should point to the root directory where the downloaded files are stored.| 
 | /logs | **Optional**. Directory where logs will be stored. | 
 
 
